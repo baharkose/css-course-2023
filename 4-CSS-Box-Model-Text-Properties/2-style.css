@@ -11,3 +11,42 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 
 }
+/* font-size
+The font-size sets the size of the text. You can set the font size with px, em, rem, vw or %.
+The default text size in browsers is 16px. So, the default size of 1em/1rem is 16px.
+With vw unit which means "viewport width", the text size will change according to the size of the window. 1vw is equal to 1% of viewport width.
+*/
+
+body{
+    font-size: 100%;
+}
+
+.par1{
+    font-size:16px;
+}
+
+.title1{
+    font-size: 1em; /* 1em = 16px */
+}
+
+.title2{
+    font-size: 1rem; /*1rem = 16px */
+}
+
+.title3{
+    font-size: 2vw;
+}
+
+/* font-weight */
+
+.par2{
+    font-weight: bold;
+}
+
+.par3{
+    font-variant: small-caps;
+}
+
+.par4{
+    font-weight: 900;
+}
